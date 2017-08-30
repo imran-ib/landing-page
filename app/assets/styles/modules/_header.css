@@ -1,0 +1,30 @@
+.header{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	
+
+	&-img{
+		position: relative;
+		left: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+
+	&--heading{
+		border-top: 10px solid $mainBlue;
+		color: $mainBlue;
+		text-align: center;
+		padding-top: 20px;
+
+		
+	}
+
+	&__paragraph{
+		font-size: 1.1rem;
+		letter-spacing: 1px;
+	}
+
+}
