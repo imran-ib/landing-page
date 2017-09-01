@@ -1,4 +1,17 @@
-/*.wrapper{
-	margin-left: 80px;	
-	margin-right: 80px;	
-}*/
+.wrapperLeft{
+		width: 50%;
+		float: left;
+		padding: 50px;
+		box-sizing: border-box;
+		@mixin clearfix;
+		
+}
+
+.wrapperRight{
+		width: 50%;
+		float: right;
+		padding: 50px;
+		box-sizing: border-box;
+		@mixin clearfix;
+		
+}

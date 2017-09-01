@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 	atImport = require('postcss-import'),
 	cssVars = require('postcss-simple-vars'),
 	nested = require('postcss-nested'),
-	mixin = require('postcss-mixins');
+	mixins = require('postcss-mixins');
 
 
 
@@ -15,11 +15,12 @@ gulp.task("styles", function  () {
 	// body...
 	return gulp.src("app/assets/styles/main.css")
 		.pipe(postcss([
-						atImport,
-						autoprefixer,
+						atImport,						
 						cssVars,
+						mixins,
 						nested,
-						mixin
+						autoprefixer
+						
 			]))
 
 		.on("error", function(errorInfo){

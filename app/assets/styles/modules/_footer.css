@@ -1,0 +1,14 @@
+.footer{
+	display: block;
+	margin-top: 10px;
+	background-color: $mainNav;
+	height: 50px;
+	padding-top: 0;
+
+	&-p{
+		text-align: center;
+		padding-top: 20px;
+		color: #fff;
+	}
+
+}

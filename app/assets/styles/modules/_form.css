@@ -1,0 +1,61 @@
+.form{
+	border: 5px solid $mainNav;
+	border-radius: 10px;
+	padding: 15px;
+	 background-color: lightgrey;
+
+	&__heading{
+		font-weight: 600;
+	}
+
+	&__paragraph{
+		font-size: 19px;
+		letter-spacing: 1.1px;
+		border-bottom: 2px #eee solid;
+		paddipaddingtom: 20p20	}
+
+	&__input{
+		padding-bottom: 20px;
+		display: flex;
+		 flex-direction: column;
+
+
+	}
+
+	&__require{
+		text-transform: uppercase;
+		font-weight: 200;
+		float: left;
+		margin-right: 300px;
+	}
+
+	&__btn{
+		padding: 10px 20px;
+		background-color: $mainOrange;
+		margin:20px 0 20px 0;
+		border-radius: 10px;
+		box-shadow: 10px;
+
+	
+	}
+
+	&__footer{
+		text-align: center;
+		font-size: 15px; 
+		font-style: italic;
+	}
+
+
+
+}
+form input[type=text],
+		[type=email]{
+		padding: 10px;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+
+form label{
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
